@@ -33,7 +33,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs">
-    <img src="images/logo.png" alt="Logo" width="280" height="120">
+    <img src="images/logo.png" alt="Logo" width="320" height="120">
   </a>
 
   <h3 align="center">SlaceX Launches</h3>
@@ -44,7 +44,7 @@
     <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs">View Demo</a>
+    <a href="https://spacex-launches-nextjs-graphql.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs/issues">Report Bug</a>
     ·
@@ -78,7 +78,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://spacex-launches-nextjs-graphql.vercel.app/)
 
 ### Built With
 
@@ -162,18 +162,18 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/th3c0d3br34ker/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/th3c0d3br34ker/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/th3c0d3br34ker/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/th3c0d3br34ker/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/th3c0d3br34ker/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/th3c0d3br34ker/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/th3c0d3br34ker/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/th3c0d3br34ker/repo/issues
-[license-shield]: https://img.shields.io/github/license/th3c0d3br34ker/repo.svg?style=for-the-badge
-[license-url]: https://github.com/th3c0d3br34ker/repo/blob/master/LICENSE.txt
-[made-with-shield]: https://img.shields.io/github/languages/top/th3c0d3br34ker/template?style=for-the-badge
-[made-with-url]: https://shields.io/github/languages/top/th3c0d3br34ker/template.svg?style-for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/th3c0d3br34ker/spacex-launches-nextjs.svg?style=for-the-badge
+[contributors-url]: https://github.com/th3c0d3br34ker/spacex-launches-nextjs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/th3c0d3br34ker/spacex-launches-nextjs.svg?style=for-the-badge
+[forks-url]: https://github.com/th3c0d3br34ker/spacex-launches-nextjs/network/members
+[stars-shield]: https://img.shields.io/github/stars/th3c0d3br34ker/spacex-launches-nextjs.svg?style=for-the-badge
+[stars-url]: https://github.com/th3c0d3br34ker/spacex-launches-nextjs/stargazers
+[issues-shield]: https://img.shields.io/github/issues/th3c0d3br34ker/spacex-launches-nextjs.svg?style=for-the-badge
+[issues-url]: https://github.com/th3c0d3br34ker/spacex-launches-nextjs/issues
+[license-shield]: https://img.shields.io/github/license/th3c0d3br34ker/spacex-launches-nextjs.svg?style=for-the-badge
+[license-url]: https://github.com/th3c0d3br34ker/spacex-launches-nextjs/blob/master/LICENSE.txt
+[made-with-shield]: https://img.shields.io/github/languages/top/th3c0d3br34ker/spacex-launches-nextjs?style=for-the-badge
+[made-with-url]: https://shields.io/github/languages/top/th3c0d3br34ker/spacex-launches-nextjs.svg?style-for-the-badge
 [product-screenshot]: images/Screenshot.jpg
 
 ## Getting Started
