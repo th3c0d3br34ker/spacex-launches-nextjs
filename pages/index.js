@@ -6,7 +6,7 @@ export default function Home({ launches }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SpaceX Launches</title>
+        <title>SpaceX Launches 🚀</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,6 +32,13 @@ export default function Home({ launches }) {
                     "en-US"
                   )}
                 </p>
+
+                {launch.launch_success && (
+                  <p>
+                    <strong>Succuess:</strong>{" "}
+                    {launch.launch_success === true ? "✅" : "❌"}
+                  </p>
+                )}
               </a>
             );
           })}
@@ -72,7 +79,7 @@ export async function getStaticProps() {
   const { data } = await client.query({
     query: gql`
       query GetLaunches {
-        launchesPast(limit: 10) {
+        launchesPast(limit: 15) {
           id
           mission_name
           launch_date_local
@@ -87,6 +94,7 @@ export async function getStaticProps() {
           rocket {
             rocket_name
           }
+          launch_success
         }
       }
     `,
