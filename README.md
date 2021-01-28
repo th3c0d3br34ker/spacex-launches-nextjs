@@ -36,7 +36,7 @@
     <img src="images/logo.png" alt="Logo" width="320" >
   </a>
 
-  <h3 align="center">SlaceX Launches</h3>
+  <h3 align="center">SpaceX Launches</h3>
 
   <p align="center">
     Demonstration of GraphQL with Next.js
