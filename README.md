@@ -33,13 +33,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs">
-    <img src="images/logo.png" alt="Logo" width="320" height="120">
+    <img src="images/logo.png" alt="Logo" width="320" >
   </a>
 
   <h3 align="center">SlaceX Launches</h3>
 
   <p align="center">
-    project_description
+    Demonstration of GraphQL with Next.js
     <br />
     <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs"><strong>Explore the docs »</strong></a>
     <br />
@@ -47,8 +47,6 @@
     <a href="https://spacex-launches-nextjs-graphql.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/th3c0d3br34ker/spacex-launches-nextjs/issues">Request Feature</a>
   </p>
 </p>
 
@@ -70,6 +68,7 @@
       </ul>
     </li>
     <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -93,11 +92,7 @@
 
 To get a local copy up and running follow these simple steps.
 
-This is a
-
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
 
@@ -119,31 +114,32 @@ This is an example of how to list things you need to use the software and how to
     npm install
     ```
 
-<!-- USAGE EXAMPLES -->
+3.  Run the project
 
-## Usage
+    ```sh
+    npm run dev
+    ```
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-<!-- ROADMAP -->
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Roadmap
+### Learn More
 
-See the [open issues](https://github.com/th3c0d3br34ker/spacex-launches-nextjs/issues) for a list of proposed features (and known issues).
+To learn more about Next.js, take a look at the following resources:
 
-<!-- CONTRIBUTING -->
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Contributing
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+### Deploy on Vercel
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 <!-- LICENSE -->
 
@@ -155,9 +151,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
-- []()
-- []()
-- []()
+- [freeCodeCamp.org](https://www.freecodecamp.org/news/how-to-fetch-graphql-data-in-next-js-with-apollo-graphql/)
+
+---
+
+> Code with 🖤 by Jainam Desai
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -175,36 +173,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [made-with-shield]: https://img.shields.io/github/languages/top/th3c0d3br34ker/spacex-launches-nextjs?style=for-the-badge
 [made-with-url]: https://shields.io/github/languages/top/th3c0d3br34ker/spacex-launches-nextjs.svg?style-for-the-badge
 [product-screenshot]: images/Screenshot.jpg
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
